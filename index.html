@@ -2,7 +2,7 @@
 <script>
   if (window.location.search.includes('?p=')) {
     const p = new URLSearchParams(window.location.search)
-    document.querySelectorAll('project')[p.get('p')].click()
+    document.querySelectorAll('.project')[p.get('p')].click()
   }
 </script>
 </html>
